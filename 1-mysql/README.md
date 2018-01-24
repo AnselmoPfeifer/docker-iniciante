@@ -8,8 +8,8 @@
 - 6 - docker commit -m "Ajuste de database" localhost anspfeifer/mysql:latest
 - 7 - docker push anspfeifer/mysql:latest
 
-    mysql -u root -pC41ZBxAmSLhRZliF;
-    show databases;
-    use cobranca;
-    show tables;
-    select * from titulo;
+  - mysql -u root -pC41ZBxAmSLhRZliF;
+  - show databases;
+  - use cobranca;
+  - show tables;
+  - select * from titulo;
